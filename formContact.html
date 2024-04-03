@@ -22,8 +22,8 @@
     <form>
         <h1>Contact Me</h1>
         <div>
-        <label for="name">Name</label>
-        <input type="text" id="name">
+            <label for="name">Name</label>
+            <input type="text" id="name">
         </div>
         <div>
             <label for="email">Email</label>
@@ -35,20 +35,21 @@
         </div>
         <div>
             <label for="subject">Subject</label>
-            <select>
-                <option>Front End Developer</option>
-                <option>Back End Developer</option>
-                <option>Fullstack Developer</option>
+            <select class="subject" id="subject">
+                <option value="FrontEndDeveloper">Front End Developer</option>
+                <option value="BackEndDeveloper">Back End Developer</option>
+                <option value="FullstackDeveloper">Fullstack Developer</option>
             </select>
         </div>
         <div>
             <label for="massage">Your Massage</label>
-            <textarea></textarea>
+            <textarea class="texet-area" id="massage"></textarea>
         </div>
         <div class="submit" id="submit">
-            <button type="button">Submit</button>
+            <button type="button" onclick="submitHandler()">Submit</button>
         </div>
     </form>
+    <script src="./Assets/js/contact.js"></script>
     
 </body>
 </html>
