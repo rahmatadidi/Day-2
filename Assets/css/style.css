@@ -1,0 +1,231 @@
+/*/*//* TASK 1 *//*/*/
+/* .main{
+    width: 700px;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 50px;
+    margin-bottom: auto;
+
+
+}
+.containner{
+    width: 450px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;  
+}
+.download {
+    display: flex;
+    justify-content: first baseline;
+    margin-top: 10px;
+}
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 120px;
+
+}
+.download a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+} */
+/* .content {
+    text-align: justify;
+}
+.content button {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    padding: 5px 30px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+
+.img img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+.img h2, h3 {
+    text-align: center;
+    margin: 10px;
+
+}
+
+.img {
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px -5px black;
+    padding-bottom: 10px;
+} */
+
+/*/*//* TASK 2 *//*/*/
+body{
+    background-color: grey;
+    margin: 0;
+}
+form {
+    width: 450px;
+    margin: auto;
+    overflow: hidden;
+}
+h1 {
+    text-align: center;
+}
+
+input, textarea {
+    width: 436px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 7px;
+    border-style: none;
+    background-color: rgb(255, 252, 252);
+}
+textarea{
+    height: 100px;
+    resize: none;
+}
+
+select {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 7px;
+    border-style: none;
+    background-color: rgb(255, 252, 252);
+    cursor: pointer;
+}
+.submit button {
+    border-radius: 15px;
+    width: 100px;
+    padding: 5px 0px;
+    border: none;
+    float: right;
+    background-color: rgb(255, 252, 252);
+    cursor: pointer;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 10px 40px;
+}
+.nav-left ul .visit a {
+    color: orangered;
+    font-weight: bold;
+}
+
+.nav-left ul li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left img {
+    margin-right: 50px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: black;
+    background-color:  orangered;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 50px;
+}
+
+.containner {
+    margin: auto;
+    width : 1000px;
+    background-color: white;
+    border-radius: 10px;
+    height: 410px;
+    
+}
+
+.content {
+    width: 450;
+    display: flex;
+}
+
+.content .column {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    text-align: justify;
+}
+.content button {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    padding: 5px 30px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.download a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-content: first baseline;
+    margin: 50px 100px 0px 0px;
+
+}
+
+.img {
+    width: 80%;
+    display: block;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px -5px black;
+    padding-bottom: 10px;
+    height: auto;
+}
+.img img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+.img h2, h3 {
+    text-align: center;
+    margin: 5px;
+}
+
+.img h2 {
+    margin-bottom: 40px;
+}
