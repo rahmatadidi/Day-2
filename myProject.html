@@ -1,0 +1,90 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Assets/css/myProject.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <ul>
+                <img src="./Assets/img/logo-brand.png" alt="logo Dumbways">
+                <li> <a href="./index.html">Home</a></li>
+                <li class="visit" id="visit"> <a href="./myProject.html">My Project</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="./formContact.html">Contact Me</a>
+        </div>
+    </nav>
+    <form>
+        <h1>Add My Project</h1>
+        <div class="add-project">
+            <label for="pName">Project Name</label>
+            <input type="text" class="projectName" id="pName">
+        </div>
+        <div class="date">
+            <div class="sDate">
+                <label for="sDate">Start Date</label>
+                <input type="date" id="sDate" style="margin-top: 5px;">
+            </div>
+            <div class="eDate">
+                <label for="eDate">End Date</label>
+                <input type="date" id="eDate" style="margin-top: 5px;">
+            </div>
+        </div>
+        <div class="desc">
+            <label for="desc">Description</label>
+            <textarea class="desc" id="desc"></textarea>
+        </div><br>
+        
+        <div class="tech">
+            <label for="tec"">Technologies</label>
+            <div class="tech1">
+                <input type="checkbox" value="nodeJs, " name="techno" id="nodeJs">
+                <label for="nodeJs" style="margin-right: 120px;">Node Js</label><br>
+                <input type="checkbox" value="nextJs, " name="techno" id="nextJs">
+                <label for="nextJs">Next Js</label> 
+            </div>
+            <div class="tech2">
+                <input type="checkbox" value="reactJs, " name="techno" id="reactJs">
+                <label for="reactJs" style="margin-right: 120px;">React Js</label><br>
+                <input type="checkbox" value="typeScript" name="techno" id="typeScript">
+                <label for="typeScript">Type Script</label> 
+            </div>
+        </div>
+        <div class="uImage">
+            <label for="uImage">Upload Image</label>
+            <input type="file" name="uImage" id="uImage">
+        </div>
+        <div class="submit" id="submit">
+            <button type="button" onclick="submitProject()">Submit</button>
+        </div>
+    </form>
+
+    <div class="result-project">
+        <h1>My Project</h1>
+        <div class="mProject">
+            <div class="mImage  ">
+                <img src="./Assets/img/project.svg" alt="Project Image">
+            </div>
+            <h3>Project Name - 2024</h3>
+            <p style="color: rgb(156, 155, 155);">durasi : - Bulan</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit assumenda fugit, accusamus consectetur incidunt quasi est aut, ullam blanditiis nobis quia dicta pariatur omnis recusandae deleniti molestias voluptatem ratione?</p>
+            <div class="icon">
+                    <img src="./Assets/img/play-store.svg" alt="Play Store" style="margin-right: 20px;">
+                    <img src="./Assets/img/html5.svg" alt="HTML5" style="margin-right: 20px;">
+                    <img src="./Assets/img/css3.svg" alt="CSS3" style="margin-right: 20px;">
+                </div>
+                <div class="btn">
+                        <button class="btnEdit">Edit</button>
+                        <button class="btnDelete">Delete</button>
+                </div>
+            </div>       
+    </div>
+    <script src="./Assets/js/myProject.js"></script>
+    
+</body>
+</html>
