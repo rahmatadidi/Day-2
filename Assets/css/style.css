@@ -265,7 +265,7 @@ select {
 .img h2 {
     margin-bottom: 40px;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 450px){
     .content{ 
         flex-direction: column;
         width : 100%;
