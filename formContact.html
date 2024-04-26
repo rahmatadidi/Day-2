@@ -7,18 +7,28 @@
     <title>Contact Me</title>
 </head>
 <body>
-    <nav>
+    <nav class="nav-bar">
         <div class="nav-left">
             <ul>
                 <img src="./Assets/img/logo-brand.png" alt="logo Dumbways">
                 <li> <a href="./index.html">Home</a></li>
                 <li> <a href="./myProject.html">My project</a></li>
+                <li class="visit" id="visit"><a href="#">Testimonial</a></li>
             </ul>
         </div>
         <div class="nav-right">
             <a href="./formContact.html">Contact Me</a>
+            <button onclick="toggleNavHamburger()" style="margin-right: 20px; border-style: none; background-color: white;"><img src="./Assets/img/hamburger.svg"  style= "width: 30px; display: none;"></button>
         </div>
     </nav>
+    <div class="hamburger hide" style="width: 100%; background-color: white; text-align: center;">
+        <ul style="width: 100%;">
+            <li style="margin-bottom: 20px; padding: 10px;"> <a href="./index.html">Home</a></li>
+            <li style="margin-bottom: 20px;  padding: 10px;" > <a href="./myProject.html">My Project</a></li>
+            <li style="margin-bottom: 20px; padding: 10px;" class="visit" id = "visit"><a href="./formContact.html">Contact Me</a></li>
+            <li style="margin-bottom: 20px; padding: 10px;"><a href="./testimonial.html">Testimonial</a></li>
+        </ul>
+    </div>
     <form>
         <h1>Contact Me</h1>
         <div>
@@ -50,6 +60,7 @@
         </div>
     </form>
     <script src="./Assets/js/contact.js"></script>
+    <script src="./Assets/js/nav.js"></script>
     
 </body>
 </html>

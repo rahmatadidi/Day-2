@@ -7,18 +7,28 @@
     <title>Card</title>
 </head>
 <body style="background-color: rgb(231, 225, 218);">
-    <nav>
+    <nav class="nav-bar">
         <div class="nav-left">
             <ul>
                 <img src="./Assets/img/logo-brand.png" alt="logo Dumbways">
                 <li class="visit" id="visit"> <a href="./index.html">Home</a></li>
                 <li> <a href="./myProject.html">My Project</a></li>
+                <li><a href="./testimonial.html">Testimonial</a></li>
             </ul>
         </div>
         <div class="nav-right">
             <a href="./formContact.html">Contact Me</a>
+            <button id="nav-hamburger-btn" onclick="toggleNavHamburger()" style="margin-right: 20px; border-style: none; background-color: white;"><img src="./Assets/img/hamburger.svg"  style= "width: 30px; display: none;"></button>
         </div>
     </nav>
+    <div class="hamburger hide" style="width: 100%; background-color: white; text-align: center;">
+        <ul style="width: 100%;">
+            <li style="margin-bottom: 20px; padding: 10px;" class="visit" id = "visit"> <a href="./index.html">Home</a></li>
+            <li style="margin-bottom: 20px;"> <a href="./myProject.html">My Project</a></li>
+            <li style="margin-bottom: 20px;"><a href="./formContact.html">Contact Me</a></li>  
+            <li style="margin-bottom: 20px; padding: 10px;"><a href="./testimonial.html">Testimonial</a></li>    
+        </ul>
+    </div>
         <div class="containner">
             <div class="content"> 
                 <div class="column">
@@ -32,9 +42,9 @@
                         <a href="https://drive.google.com/file/d/11sLu6BAts8HXl_GQIUwnb-gy_XzvfDEt/view?usp=drive_link">Download CV <img src ="./Assets/img/download-solid.svg" alt="download" style="height: 20px;"></a>
                     </div>
                     <div class="social">
-                        <a href="https://www.linkedin.com/in/rahmat-adi-santoso-2b7728146/"><img src="./Assets//img/linkedin.svg" alt="linkedin" style="height: 30px;" class="linkedin"></a>
-                        <a href="https://www.instagram.com/rahmatadi.di/"><img src="./Assets/img/instagram.svg" alt="intagram" style="height: 30px;" class="ig"></a>
-                        <a href="https://www.facebook.com/rahmat.adhiie1"><img src="./Assets/img/facebook.svg" alt="facebook" style="height: 30px;" class="fb"></a>
+                        <a href="https://www.linkedin.com/in/rahmat-adi-santoso-2b7728146/"><img src="./Assets//img/linkedin.svg" alt="linkedin" style="height: 30px; margin-right: 25px;" class="linkedin"></a>
+                        <a href="https://www.instagram.com/rahmatadi.di/"><img src="./Assets/img/instagram.svg" alt="intagram" style="height: 30px; margin-right: 25px;" class="ig"></a>
+                        <a href="https://www.facebook.com/rahmat.adhiie1"><img src="./Assets/img/facebook.svg" alt="facebook" style="height: 30px; margin-right: 25px;" class="fb"></a>
                         <a href="https://twitter.com/rahmatadi_di"><img src="./Assets/img/twitter.svg" alt="twitter" style = "height : 30px;" class="twitter"></a>
                     </div>
                 </div>  
@@ -64,6 +74,6 @@
             </div> -->
 
     </div>
-    
+    <script src="./Assets/js/nav.js"></script>
 </body>
 </html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+    <link rel="stylesheet" href="./Assets/css/testimonial.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-left">
+            <ul>
+                <img src="./Assets/img/logo-brand.png" alt="logo Dumbways">
+                <li> <a href="./index.html">Home</a></li>
+                <li> <a href="./myProject.html">My Project</a></li>
+                <li class="visit" id="visit"><a href="#">Testimonial</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="./formContact.html">Contact Me</a>
+            <button id="nav-hamburger-btn" onclick="toggleNavHamburger()" style="margin-right: 20px; border-style: none; background-color: white;"><img src="./Assets/img/hamburger.svg"  style= "width: 30px; display: none;"></button>
+        </div>
+    </nav>
+    <div class="hamburger hide" style="width: 100%; background-color: white; text-align: center;">
+        <ul style="width: 100%;">
+            <li style="margin-bottom: 20px; padding: 10px;"> <a href="./index.html">Home</a></li>
+            <li style="margin-bottom: 20px;  padding: 10px;"> <a href="./myProject.html">My Project</a></li>
+            <li style="margin-bottom: 20px;  padding: 10px;"><a href="./formContact.html">Contact Me</a></li>      
+            <li style="margin-bottom: 20px; padding: 10px;" class="visit" id = "visit"><a href="./testimonial.html">Testimonial</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1 style="margin-bottom:50px ;">Testimonial</h1>
+        <div class="all-btn" style="display: flex;">
+            <div class="btn-filter" style="margin: auto;"> 
+                <button><img src="./Assets/img/star-orange.svg" alt="">1</button>
+                <button><img src="./Assets/img/star-orange.svg" alt="">2</button>
+                <button><img src="./Assets/img/star-orange.svg" alt="">3</button>
+                <button><img src="./Assets/img/star-orange.svg" alt="">4</button>
+                <button><img src="./Assets/img/star-orange.svg" alt="">5</button>
+            </div>
+        </div>
+        <div class="part-testi" id="part-testi">
+            <div class="testi">
+                    <img style="width: 100%;" src="./Assets/img/foto diri.jpg">
+                    <p>"${this.content}"</p>
+                    <h2 style="display: flex; justify-content: flex-end;">- ${this.author}</h2>
+            </div>
+        </div>           
+    </div>
+    <script src="./Assets/js/nav.js"></script>
+    <script src="./Assets/js/testimonial.js"></script>
+</body>
+</html>

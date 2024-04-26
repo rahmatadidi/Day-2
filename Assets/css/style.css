@@ -88,7 +88,7 @@ h1 {
 }
 
 input, textarea {
-    width: 436PX;
+    width: 100%;
     border-radius: 5px;
     margin-bottom: 20px;
     margin-top: 5px;
@@ -99,6 +99,23 @@ input, textarea {
 textarea{
     height: 100px;
     resize: none;
+}
+.hamburger ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger ul li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+.hamburger ul .visit a {
+    background-color: orangered;
+    font-weight: bold;
+}
+.hamburger ul .visit {
+    background-color: orangered;
+    font-weight: bold;
 }
 
 select {
@@ -123,7 +140,15 @@ select {
     
 }
 
-nav {
+.hamburger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+    display: none;
+}
+.nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,6 +165,14 @@ nav {
     color: orangered;
     font-weight: bold;
 }
+.hamburger ul .visit { 
+    background-color: orangered;
+}
+
+.hamburger ul .visit a { 
+    font-weight: bold;
+    color: white; 
+}
 
 .nav-left ul li {
     list-style-type: none;
@@ -154,6 +187,7 @@ nav {
 .nav-left img {
     margin-right: 50px;
 }
+
 
 .nav-right a {
     text-decoration: none;
@@ -170,7 +204,7 @@ nav {
     width : 1000px;
     background-color: white;
     border-radius: 10px;
-    height: 410px;
+    display: flex;
     
 }
 
@@ -230,6 +264,53 @@ nav {
 
 .img h2 {
     margin-bottom: 40px;
+}
+@media only screen and (max-width: 500px){
+    .content{ 
+        flex-direction: column;
+        width : 100%;
+        margin: auto;
+    }
+
+    .img {
+        margin: auto;
+        width: 50%;
+    }
+
+    .containner{
+        width : 75%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .column .social {
+        margin: auto;
+        margin-top: 25px;
+    }
+    .nav-right a {
+    display: none;
+    }
+    .nav-left ul li {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        /* display: none; */
+    }
+    .nav-bar {
+        margin-bottom: 0px;
+    }
+
+    .nav-right button img {
+        display: flex !important;
+        width: 30px;
+    }
+    .hide{
+        display: none;
+    }
 }
 
 

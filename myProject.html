@@ -7,18 +7,28 @@
     <title>My Project</title>
 </head>
 <body>
-    <nav>
+    <nav class="nav-bar">
         <div class="nav-left">
             <ul>
                 <img src="./Assets/img/logo-brand.png" alt="logo Dumbways">
                 <li> <a href="./index.html">Home</a></li>
                 <li class="visit" id="visit"> <a href="./myProject.html">My Project</a></li>
+                <li><a href="./testimonial.html">Testimonial</a></li>
             </ul>
         </div>
         <div class="nav-right">
             <a href="./formContact.html">Contact Me</a>
+            <button id="nav-hamburger-btn" onclick="toggleNavHamburger()" style="margin-right: 20px; border-style: none; background-color: white;"><img src="./Assets/img/hamburger.svg"  style= "width: 30px; display: none;"></button>
         </div>
     </nav>
+    <div class="hamburger hide" style="width: 100%; background-color: white; text-align: center;">
+        <ul style="width: 100%;">
+            <li style="margin-bottom: 20px; padding: 10px;"> <a href="./index.html">Home</a></li>
+            <li style="margin-bottom: 20px; padding: 10px;" class="visit" id = "visit"> <a href="./myProject.html">My Project</a></li>
+            <li style="margin-bottom: 20px;"><a href="./formContact.html">Contact Me</a></li>
+            <li style="margin-bottom: 20px; padding: 10px;"><a href="./testimonial.html">Testimonial</a></li>      
+        </ul>
+    </div>
     <form>
         <h1>Add My Project</h1>
         <div class="add-project">
@@ -63,28 +73,12 @@
             <button type="button" onclick="submitProject()">Submit</button>
         </div>
     </form>
-
-    <div class="result-project">
-        <h1>My Project</h1>
-        <div class="mProject">
-            <div class="mImage  ">
-                <img src="./Assets/img/project.svg" alt="Project Image">
-            </div>
-            <h3>Project Name - 2024</h3>
-            <p style="color: rgb(156, 155, 155);">durasi : - Bulan</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit assumenda fugit, accusamus consectetur incidunt quasi est aut, ullam blanditiis nobis quia dicta pariatur omnis recusandae deleniti molestias voluptatem ratione?</p>
-            <div class="icon">
-                    <img src="./Assets/img/play-store.svg" alt="Play Store" style="margin-right: 20px;">
-                    <img src="./Assets/img/html5.svg" alt="HTML5" style="margin-right: 20px;">
-                    <img src="./Assets/img/css3.svg" alt="CSS3" style="margin-right: 20px;">
-                </div>
-                <div class="btn">
-                        <button class="btnEdit">Edit</button>
-                        <button class="btnDelete">Delete</button>
-                </div>
-            </div>       
+    
+    <div class="result-project" id="result-project" style="display: flex;">
+        
     </div>
     <script src="./Assets/js/myProject.js"></script>
+    <script src="./Assets/js/nav.js"></script>
     
 </body>
 </html>
