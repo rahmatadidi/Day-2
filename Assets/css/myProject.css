@@ -242,8 +242,13 @@ textarea {
         display: none;
     }
     form {
-
         padding: 0px;
+        width: 90%;
     } 
+    .result-project{
+        background-color: rgb(224, 232, 238);
+        width: 100%;
+        
+    }
 }
 

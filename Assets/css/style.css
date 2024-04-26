@@ -311,6 +311,14 @@ select {
     .hide{
         display: none;
     }
+
+    form {
+        width: 90%;
+    }
+    input {
+        border-radius: 5px !important;
+    }
+
 }
 
 
