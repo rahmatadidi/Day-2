@@ -77,28 +77,8 @@ body{
     background-color: rgb(231, 225, 218);
     margin: 0;
 }
-form {
-    width: 450px;
-    margin: auto;
-    overflow: hidden;
-
-}
 h1 {
     text-align: center;
-}
-
-input, textarea {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    padding: 7px;
-    border-style: none;
-    background-color: rgb(255, 252, 252);
-}
-textarea{
-    height: 100px;
-    resize: none;
 }
 .hamburger ul a {
     text-decoration: none;
@@ -117,29 +97,6 @@ textarea{
     background-color: orangered;
     font-weight: bold;
 }
-
-select {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    padding: 7px;
-    border-style: none;
-    background-color: rgb(255, 252, 252);
-    cursor: pointer;
-}
-.submit button {
-    border-radius: 15px;
-    width: 100px;
-    padding: 5px 0px;
-    /* border: none; */
-    float: right;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    
-}
-
 .hamburger {
     display: flex;
     justify-content: space-between;
