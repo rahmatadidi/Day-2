@@ -7,9 +7,12 @@ function submitProject() {
     let desc = document.getElementById("desc").value;
     var checkBox = document.getElementsByName("techno")
     let uImage = document.getElementById("uImage").files[0];
-    let URLimage = URL.createObjectURL(uImage)
-    
 
+    if (!uImage) {
+        return alert("Input All Your Data!")
+    }
+
+    let URLimage = URL.createObjectURL(uImage)
 
     if (pName === "") {
         return alert("Input All Your Data!")
@@ -21,10 +24,10 @@ function submitProject() {
         return alert("Input All Your Data!")
     }  
     
-    if (URLimage === "") {
-        return alert("Input All Your Data!")
-    }  
     
+    
+    
+    // console.log(URLimage)
     if (eDate < sDate) { 
         return alert("Your Dates dont match")
     } 
