@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(231, 225, 218);
+    background-color: rgb(216, 196, 173) !important;
     margin: 0;
 }
 form {
     width: 450px;
     margin: auto;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 h1 {
@@ -21,11 +21,11 @@ input, textarea {
     border-style: none;
     background-color: rgb(255, 252, 252);
 }
-textarea{
+/* textarea{
     height: 100px;
     resize: none;
-}
-.hamburger ul a {
+} */
+/* .hamburger ul a {
     text-decoration: none;
     color: black;
 }
@@ -41,7 +41,7 @@ textarea{
 .hamburger ul .visit {
     background-color: orangered;
     font-weight: bold;
-}
+} */
 
 select {
     width: 100%;
@@ -65,7 +65,7 @@ select {
     
 }
 
-.hamburger {
+/* .hamburger {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,10 +111,10 @@ select {
 
 .nav-left img {
     margin-right: 50px;
-}
+} */
 
 
-.nav-right a {
+/* .nav-right a {
     text-decoration: none;
     color: black;
     background-color:  orangered;
@@ -122,14 +122,14 @@ select {
     border-radius: 10px;
     border: none;
     margin-right: 50px;
-}
+} */
 
 .containner {
     margin: auto;
     width : 1000px;
     background-color: white;
     border-radius: 10px;
-    display: flex;
+    /* display: flex; */
     
 }
 @media only screen and (max-width: 450px){

@@ -1,7 +1,7 @@
 function allTesti() {
 
 
-const allTestimonial = testimonials.map((testimonial)=> {
+const allTestimonial = testimonials.map((testimonial) => {
     return `
     <div class="part-testi" id="part-testi">
         <div class="testi">
